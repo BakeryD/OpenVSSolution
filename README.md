@@ -7,7 +7,7 @@
 ### Current Builds
 |[@djmateer](https://github.com/djhmateer)|[@BakeryD](https://github.com/BakeryD)|
 |-----------------------------------------|--------------------------------------|
-| [![Build Status](https://davemateer.visualstudio.com/OpenVSSolution/_apis/build/status/OpenVSSolution-ASP.NET%20Core-CI)](https://davemateer.visualstudio.com/OpenVSSolution/_build/latest?definitionId=3) | [![Build Status](https://dev.azure.com/SandboxSoftwareUinc/SandBoxSoftWare/_apis/build/status/SandBoxSoftWare?branchName=master)](https://dev.azure.com/SandboxSoftwareUinc/SandBoxSoftWare/_build/latest?definitionId=2&branchName=master) |
+| [![Build Status](https://davemateer.visualstudio.com/OpenVSSolution/_apis/build/status/OpenVSSolution-ASP.NET%20Core-CI)](https://davemateer.visualstudio.com/OpenVSSolution/_build/latest?definitionId=3) | [![Build Status](https://dev.azure.com/SandboxSoftwareUinc/SandBoxSoftWare/_apis/build/status/BakeryD.OpenVSSolution?branchName=master)](https://dev.azure.com/SandboxSoftwareUinc/SandBoxSoftWare/_build/latest?definitionId=3&branchName=master) |
 
 [Download the release](https://github.com/djhmateer/OpenVSSolution/releases) or from the Releases tab above
 
