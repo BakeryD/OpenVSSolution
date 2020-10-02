@@ -1,8 +1,8 @@
 #### Original Authour: [@djmateer](https://github.com/djhmateer)
 
 > A .NET Core Console application which will open a .sln file in the current directory with Visual Studio Enterprise or Community.
-
-> See [davemateer.com blog article](https://davemateer.com/coding/2018/11/14/Open-visual-studio-from-command-line.html) for more detail on how to use.
+[New Blog post](https://davemateer.com/2020/04/13/NET-Core-Single-Executable-Console-Application)
+See [davemateer.com blog article](https://davemateer.com/coding/2018/11/14/Open-visual-studio-from-command-line.html) for more detail on how to use.
 
 ### Current Builds
 |[@djmateer](https://github.com/djhmateer)|[@BakeryD](https://github.com/BakeryD)|
@@ -15,5 +15,7 @@
 
 ### Features In Progress:
 
-- Specify an sln/csproj name (optional)
-- specify directory to search (optional)
+- Specify an sln name (optional)
+- Specify directory to search (optional)
+- Run with identity of current logged in user
+- Add `--help` option
