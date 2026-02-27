@@ -32,7 +32,7 @@ steps:
   inputs:
     command: 'build'
     projects: '**/*.csproj'
-    arguments: '--configuration Release -f netcoreapp3.1 --verbosity normal'
+    arguments: '--configuration Release --verbosity normal'
     
 - task: GitHubRelease@1
   inputs:
