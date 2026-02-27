@@ -1,12 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <Description>A simple commandline tool to open Visual Studio solutions. Built with Visual Studio for maximum irony.</Description>
     <OutputType>Exe</OutputType>
-    <!--<RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>-->
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>d</AssemblyName>
-    <!--<PublishTrimmed>true</PublishTrimmed>-->
+    <StartupObject>OpenVSSolution.Program</StartupObject>
+    <ApplicationManifest>d.exe.manifest</ApplicationManifest>
+    <Version>2.1.0</Version>
+    <AssemblyVersion>2.1.0</AssemblyVersion>
     <!-- added these to use new features -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 </Project>
