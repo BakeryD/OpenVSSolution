@@ -4,13 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>d</AssemblyName>
-    <StartupObject>OpenVSSolution.Program</StartupObject>
-    <ApplicationManifest>d.exe.manifest</ApplicationManifest>
     <Version>2.1.0</Version>
     <AssemblyVersion>2.1.0</AssemblyVersion>
     <!-- added these to use new features -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <NuGetAuditMode>all</NuGetAuditMode>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
@@ -18,6 +17,7 @@
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 </Project>
