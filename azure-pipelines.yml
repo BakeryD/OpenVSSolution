@@ -36,7 +36,7 @@ steps:
     
 - task: GitHubRelease@1
   inputs:
-    gitHubConnection: 'github_grant'
+    gitHubConnection: 'BakeryD'
     repositoryName: 'BakeryD/OpenVSSolution'
     action: 'create'
     target: '$(Build.SourceVersion)'
@@ -44,7 +44,7 @@ steps:
     isPreRelease: true
     changeLogCompareToRelease: 'lastFullRelease'
     changeLogType: 'commitBased'
-
+    
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
