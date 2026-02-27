@@ -36,11 +36,12 @@ steps:
     
 - task: GitHubRelease@1
   inputs:
-    gitHubConnection: 'GitHubRepo'
+    gitHubConnection: 'github_grant'
     repositoryName: 'BakeryD/OpenVSSolution'
     action: 'create'
     target: '$(Build.SourceVersion)'
     tagSource: 'gitTag'
+    isPreRelease: true
     changeLogCompareToRelease: 'lastFullRelease'
     changeLogType: 'commitBased'
 
